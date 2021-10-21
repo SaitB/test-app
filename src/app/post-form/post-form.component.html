@@ -1,9 +1,9 @@
 <div>
     <p>post-form works!</p>
-    <input type="text"><br>
+    <input type="text" [(ngModel)]="title" placeholder="Введите заголовок"><br>
     <br>
-    <input type="text"><br>
+    <input type="text" [(ngModel)]="text" placeholder="Введите данные"><br>
     <br>
     <br>
     <button (click)="addPost()">Добавить пост</button>
-</div>
+</div> 
